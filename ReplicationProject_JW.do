@@ -1,6 +1,6 @@
 *Replication project
 
-*Yet more modifications
+*Just a test: is this added to github?
 
 ** Regressions  
 clear all
