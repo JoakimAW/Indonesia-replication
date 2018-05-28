@@ -1,0 +1,6 @@
+make_index.ado (application/octet-stream) 1671 bytes.
+multfiles.do (application/x-stata-syntax) 716 bytes.
+provouter2.do (application/x-stata-syntax) 41286 bytes.
+tso_APSR_2018_prep.do (application/x-stata-syntax) 21079 bytes.
+tso_APSR_2018_regs.do (application/x-stata-syntax) 59895 bytes.
+tso_APSR_2018_rep2.dta (application/x-stata) 19143828 bytes.
