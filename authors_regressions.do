@@ -313,6 +313,11 @@ eststo hs5
 esttab h3 h4 h2 h5 a3 a4 a2 a5 using "$output/tso_ha.tex", replace booktabs fragment se b(%9.3f) se(%9.3f) collabels(none) mgroups("Health Centers (km)" "Asphalt Roads", pattern(1 0 0 0 1 0 0 0) span prefix(\multicolumn{@span}{c}{) suffix(}) erepeat(\cmidrule(lr){@span})) label star(* 0.05 ** 0.01) varlabels(_cons "Constant") order(`EH_seg') nomtitles stats(r2 N, fmt(%9.3f %9.0g) layout("\multicolumn{1}{c}{@}" "\multicolumn{1}{c}{@}") labels(`"R-Squared"' `"Observations"' )) 
 esttab ms3 ms4 ms2 ms5 hs3 hs4 hs2 hs5 using "$output/tso_ed.tex", replace booktabs fragment se b(%9.3f) se(%9.3f) collabels(none) mgroups("Middle Schools (km)" "High Schools (km)", pattern(1 0 0 0 1 0 0 0) span prefix(\multicolumn{@span}{c}{) suffix(}) erepeat(\cmidrule(lr){@span})) label star(* 0.05 ** 0.01) varlabels(_cons "Constant") order(`EH_seg') nomtitles stats(r2 N, fmt(%9.3f %9.0g) layout("\multicolumn{1}{c}{@}" "\multicolumn{1}{c}{@}") labels(`"R-Squared"' `"Observations"' )) 
 
+
+*Added Jo
+esttab h3 h4 h2 h5 a3 a4 a2 a5 using "$output/tso_ha.tex", replace booktabs se b(%9.3f) se(%9.3f) collabels(none) mgroups("Health Centers (km)" "Asphalt Roads", pattern(1 0 0 0 1 0 0 0) span prefix(\multicolumn{@span}{c}{) suffix(}) erepeat(\cmidrule(lr){@span})) label star(* 0.05 ** 0.01) varlabels(_cons "Constant") order(`EH_seg') nomtitles stats(r2 N, fmt(%9.3f %9.0g) layout("\multicolumn{1}{c}{@}" "\multicolumn{1}{c}{@}") labels(`"R-Squared"' `"Observations"' )) 
+
+
 eststo clear
 
 

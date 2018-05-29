@@ -13,3 +13,5 @@ Hello. Here is a bunch of files:
 - psacalc.ado: used by the authors to calculate Oster bounds, got it from https://ideas.repec.org/c/boc/bocode/s457677.html
 
 - ReplicationProject_JW.do: what I’m currently using to play around.
+
+- Overleaf file: https://www.overleaf.com/16522208jgbtdsrhfmbc#/63456164/
